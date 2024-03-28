@@ -1,0 +1,599 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 10vh;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+        position: fixed;
+        z-index: 99999;
+            align-items: center;
+    background: -o-linear-gradient(10deg, rgb(2, 0, 36) 10%, rgb(9, 9, 121) 50%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(5deg, rgb(2, 0, 36) 10%, rgb(9, 9, 121) 50%, rgba(0,212,255,1) 100%);
+    
+ }
+body,html{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+.india{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  
+    flex-wrap: wrap;
+    z-index: 999;
+    position: relative;
+    flex-direction: column;
+   
+}
+
+.loader1 h1{
+    font-size: 12vw;
+    z-index: 99;
+    line-height: 25vw;
+    letter-spacing: 1vw;
+    text-transform: uppercase;
+    font-family: porlane;
+    position: absolute;
+    color: whitesmoke;
+}
+.image{
+    z-index: 999;
+    height: 100%;
+    width: 100%;
+ 
+}
+.india .image img{
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+   
+    object-position: center;
+}
+.loader1 h2{
+    font-size: 6vw;
+    letter-spacing: 1vw;
+    text-transform: uppercase;
+    font-family: porlane;
+    z-index: 99;
+    color: whitesmoke;
+    line-height: 40vw;
+}
+
+.loader1{
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    background-color: #00000094;
+    position: absolute;
+    z-index: 999;
+}
+
+.discover{
+    height: 20vh;
+    width: 100%;
+    display:flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    position: relative;
+    
+    justify-content: center;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #5a5a5a,
+    inset,
+                 -20px -20px 60px #ffffff;
+}
+
+.discover h1{
+    font-size: 10vw;
+    text-transform: uppercase;
+    font-family: porlane;
+    letter-spacing: 1vw;
+    
+}
+.discover p{
+    font-size: 4vw;
+    line-height: 3.5vw;
+    white-space: nowrap;
+    text-align: center;
+    font-family: porlane;
+    font-style: oblique;
+}
+.beauty{
+    height: 100vh;
+    width: 100%;
+    border-radius: 5%;
+    position: relative;
+    background-color:rgb(119, 134, 134);
+
+}
+
+ .elem{
+height:100%;
+overflow: hidden;
+width:100%;
+z-index: 999;
+margin-top: 2vw;
+margin-right: auto;
+position: relative;
+}
+
+.elem h1{
+    padding-left: 3vw;
+    font-family: poppins;
+ 
+}
+.elem ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+    position: relative;
+    margin-top: 2vw;
+    align-items: center;
+    flex-direction: column  ;
+    
+}
+
+.elem ul h3{
+    font-size: 1.2vw;
+   width: 70%;
+    
+}
+.elem ul h2{
+    font-size: 1.5vw;
+    font-family: poppins;
+}
+
+ #golden-img{
+    height: 24%;
+    width: 13%;
+    z-index: 999;
+    object-fit: cover;
+    left: 80%;
+    border-radius: 50%;
+    bottom: 75%;
+    position: absolute;
+
+}
+ #backwater-img{
+    height: 24%;
+    width: 13%;
+    z-index: 999;
+    object-fit: cover;
+    left: 80%;
+    border-radius: 50%;
+    
+    position: absolute;
+
+}
+ #goa-img{
+    height: 24%;
+    width: 13%;
+    z-index: 999;
+    object-fit: cover;
+    left: 80%;
+    border-radius: 50%;
+    bottom: 5%;
+    position: absolute;
+
+}
+
+.loader1 #inter{
+    font-size: 8vw;
+    letter-spacing: 1vw;
+    line-height: normal;
+    text-align: center;
+    margin-top: 6vw;
+}
+
+.international{
+    height: 80vh;
+    width: 100%;
+    background-color: red;
+}
+.switz{
+    height: 24%;
+    width: 13%;
+    z-index: 999;
+    object-fit: cover;
+    left: 80%;
+    border-radius: 50%;
+    bottom: 40%;
+    position: absolute;
+
+}
+
+ @media (max-width:768px) {
+   #hum1 i{
+      position: absolute;
+       bottom: 82%;
+
+   }
+   #nav2 img{
+    position: absolute;
+    bottom: 112%;
+   }
+
+   #navigation{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 100%;
+    height: 50vh;
+    z-index: 9999;
+   }
+   
+#navigation a{
+    text-decoration:none;
+    font-size: 4vw;
+    margin-bottom: 3vw;
+    font-family: Lato;
+    color: #ffff; 
+    z-index: 99;
+}
+} 
+
+@media(max-width:368px){
+    .india{
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      
+        flex-wrap: wrap;
+        z-index: 999;
+        position: relative;
+        flex-direction: column;
+       
+    }
+
+    .loader1{
+    height: 100%;
+     width: 100%;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-pack: center;
+     align-items: center;
+     -ms-flex-pack: center;
+     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+     text-align: center;
+     background-color: #00000094;
+     position: absolute;
+     z-index: 999;
+    }
+    .loader1 h1{
+        font-size: 12vw;
+        z-index: 99;
+       line-height: 10vw;
+        letter-spacing: 1.5vw;
+        text-transform: uppercase;
+        font-family: porlane;
+        position: absolute;
+        color: whitesmoke;
+    }
+    #explore{
+        margin-top: 40vw;
+    }
+    .image{
+        z-index: 999;
+        height: 100%;
+        width: 100%;
+     
+    }
+    .india .image img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .discover{
+        height:10vh;
+        width: 100%;
+        display:flex;
+        overflow: hidden;
+        flex-wrap: wrap;
+        position: relative;
+        justify-content: center;
+        background: #e0e0e0;
+        align-items: center;
+        box-shadow:  20px 20px 60px #5a5a5a,inset,
+        -20px -20px 60px #ffffff;
+    }
+    
+    .discover h1{
+        font-size: 8vw;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: porlane;
+        letter-spacing: 1vw;
+        
+    }
+   
+
+    .beauty{
+        height: 100vh;
+        width: 100%;
+        border-radius: 5%;
+        position: relative;
+        background-color:rgb(119, 134, 134);
+    
+    }
+    
+     .elem{
+    height:100%;
+    overflow: hidden;
+    width:100%;
+    z-index: 999;
+    margin-top: 2vw;
+    margin-right: auto;
+    position: relative;
+    }
+    
+    .elem h1{
+       
+        font-family: poppins;
+        font-size: 5vw;
+        text-align: center;
+     
+    }
+    .elem ul{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2vw;
+        position: relative;
+        margin-top: 2vw;
+        align-items: center;
+        flex-direction: column  ;
+        
+    }
+    
+    .elem ul h3{
+        font-size: 3.5vw;
+       width: 95%;
+        
+    }
+    .elem ul h2{
+        font-size:4vw;
+        font-family: poppins;
+    }
+
+    #golden-img{
+        height: 10%;
+        width: 16%;
+        z-index: 999;
+        object-fit: cover;
+        left: 80%;
+        border-radius: 50%;
+        bottom: 85%;
+        display: none;
+        position: absolute;
+    
+    }
+     #backwater-img{
+        height: 10%;
+        width: 16%;
+        z-index: 999;
+        object-fit: cover;
+        left: 80%;
+        display: none;
+        border-radius: 50%;
+        bottom: 60%;
+        position: absolute;
+    
+    }
+     #goa-img{
+        height: 10%;
+        width: 16%;
+        z-index: 999;
+        display: none;
+        object-fit: cover;
+        left: 80%;
+        border-radius: 50%;
+        bottom: 35%;
+        position: absolute;
+    
+    }
+}
+
+
+@media (min-width:369px) and (max-width:568px) {
+    .india{
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      
+        flex-wrap: wrap;
+        z-index: 999;
+        position: relative;
+        flex-direction: column;
+       
+    }
+
+    .loader1{
+        height: 100%;
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+      align-items: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+            text-align: center;
+        background-color: #00000094;
+        position: absolute;
+        z-index: 999;
+    }
+    .loader1 h1{
+        font-size: 12vw;
+        z-index: 99;
+       line-height: 10vw;
+        letter-spacing: 1.5vw;
+        text-transform: uppercase;
+        font-family: porlane;
+        position: absolute;
+        color: whitesmoke;
+    }
+    #explore{
+        margin-top: 40vw;
+    }
+    .image{
+        z-index: 999;
+        height: 100%;
+        width: 100%;
+     
+    }
+    .india .image img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .discover{
+        height:10vh;
+        width: 100%;
+        display:flex;
+        overflow: hidden;
+        flex-wrap: wrap;
+        position: relative;
+        justify-content: center;
+        background: #e0e0e0;
+        align-items: center;
+        box-shadow:  20px 20px 60px #5a5a5a,inset,
+        -20px -20px 60px #ffffff;
+    }
+    
+    .discover h1{
+        font-size: 8vw;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: porlane;
+        letter-spacing: 1vw;
+        
+    }
+    .discover p{
+        font-size: 5vw;
+        line-height: 3.5vw;
+        white-space: wrap;
+        font-weight: 100;
+        text-align: center;
+        font-family:porlane;
+       letter-spacing: .6vw;
+        font-style: oblique;
+    }
+
+    .beauty{
+        height: 90vh;
+        width: 100%;
+        border-radius: 5%;
+        position: relative;
+        background-color:rgb(119, 134, 134);
+    
+    }
+    
+     .elem{
+    height:100%;
+    overflow: hidden;
+    width:100%;
+    z-index: 999;
+    margin-top: 2vw;
+    margin-right: auto;
+    position: relative;
+    }
+    
+    .elem h1{
+       
+        font-family: poppins;
+        font-size: 5vw;
+        text-align: center;
+     
+    }
+    .elem ul{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2vw;
+        position: relative;
+        margin-top: 2vw;
+        align-items: center;
+        flex-direction: column  ;
+        
+    }
+    
+    .elem ul h3{
+        font-size: 3.5vw;
+       width: 95%;
+        
+    }
+    .elem ul h2{
+        font-size:4vw;
+        font-family: poppins;
+    }
+
+    #golden-img{
+        height: 10%;
+        width: 16%;
+        z-index: 999;
+        object-fit: cover;
+        left: 80%;
+        border-radius: 50%;
+        bottom: 85%;
+        display: none;
+        position: absolute;
+    
+    }
+     #backwater-img{
+        height: 10%;
+        width: 16%;
+        z-index: 999;
+        object-fit: cover;
+        left: 80%;
+        display: none;
+        border-radius: 50%;
+        bottom: 60%;
+        position: absolute;
+    
+    }
+     #goa-img{
+        height: 10%;
+        width: 16%;
+        z-index: 999;
+        display: none;
+        object-fit: cover;
+        left: 80%;
+        border-radius: 50%;
+        bottom: 35%;
+        position: absolute;
+    
+    }
+}
